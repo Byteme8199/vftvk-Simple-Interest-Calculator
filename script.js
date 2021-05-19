@@ -5,7 +5,7 @@ function compute()
     ///  not a fan of using Alert, would be better as a red error text under the input IMO.
     if(principal < 1) {
         alert("Enter a positive number");
-        document.getElementById("principal").autofocus;
+        document.getElementById("principal").focus();
     }
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
