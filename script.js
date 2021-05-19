@@ -16,7 +16,7 @@ function compute()
     /// use the result variable as the element text
     document.getElementById("result").innerHTML = result
 }
-        
+
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
