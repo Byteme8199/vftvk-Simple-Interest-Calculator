@@ -11,21 +11,21 @@ h1 {
 .maindiv {
     background-color: white;
     color: black;
-    width: 600px; /* the instructions says 300px but the desired result looks more like 600px */
+    width: 500px; /* the instructions says 300px but the desired result looks more like 500px */
     padding: 20px;
     border-radius: 25px;
-    align: center; /* this isn't doing anything */
+    align-content: center; /* this isn't doing anything as align, making it align-content */
     margin: auto
 }
 
-.spacer {
-    margin-top: 10px;
+.row {
+    padding-top: 10px;
     width: 100%;
+    padding-left: 80px;
 }
 
 label {
     width: 100px;
     margin-right: 15px;
-    margin-left: 80px;
     float: left;
 }
